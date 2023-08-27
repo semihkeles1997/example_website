@@ -6,7 +6,7 @@
 	<title>DOYUYO</title>
 </head>
 <body>
-
+HEY
 
 <form method="post">
 	<input type="checkbox" name="kajun" value="Kajun">
