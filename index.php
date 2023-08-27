@@ -6,12 +6,24 @@
 	<title>DOYUYO</title>
 </head>
 <body>
-HEY
 
+HEY
 <form method="post">
-	<input type="checkbox" name="kajun" value="Kajun">
-	<input type="checkbox" name="tenders" value="Tenders">
-	<input type="checkbox" name="chicken_burger" value="Chicken Burger">
+	Kajun: <input type="checkbox" name="yemek[]" value="Kajun"> <br>
+	Tenders: <input type="checkbox" name="yemek[]" value="Tenders"> <br>
+	Chicken Burger: <input type="checkbox" name="yemek[]" value="chicken_burger"> <br>
+	<input type="submit" name="hesapla" value="HESAPLA">
 </form>
 </body>
 </html>
+<?php
+if (isset($_POST["hesapla"])) 
+{
+	$masa = $_GET["masa"];
+	if (isset($_POST['yemek'])) 
+	{
+	    print_r($_POST['yemek']); 
+	}
+}
+
+?>
