@@ -7,7 +7,7 @@
 </head>
 <body>
 
-Semih Keleş
+Semih Keleş - Web Site
 <form method="post">
 	Kajun: <input type="checkbox" name="yemek[]" value="Kajun"> <br>
 	Tenders: <input type="checkbox" name="yemek[]" value="Tenders"> <br>
