@@ -20,6 +20,7 @@ Semih Keleş - Web Site
 if (isset($_POST["hesapla"])) 
 {
 	$masa = $_GET["masa"];
+	echo "Selam...";
 	if (isset($_POST['yemek'])) 
 	{
 	    print_r($_POST['yemek']); 
